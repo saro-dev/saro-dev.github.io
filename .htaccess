@@ -1,0 +1,7 @@
+<IfModule mod_headers.c>
+    # Enable cache control
+    Header set Cache-Control "public"
+
+    # Set expiration time to 1 year (adjust as needed)
+    Header set Expires "Thu, 31 Dec 2024 23:59:59 GMT"
+</IfModule>
